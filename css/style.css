@@ -1,5 +1,6 @@
 @import './variables.css';
 @import './globals.css';
+@import './habilidades.css';
 
 /* Navbar */
 
@@ -213,7 +214,7 @@ header .header__left p {
 }
 
 .skills .skills__content {
-    padding: 6rem 4rem;
+    padding: 1rem 4rem;
     text-align: center;
 }
 
