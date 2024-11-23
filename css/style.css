@@ -424,6 +424,70 @@ button {
     resize: none;
 }
 
+/* Comments*/
+
+#comentarios {
+    padding: 60px 20px;
+    background-color:#eeeeee7e;
+    text-align: center;
+  }
+  
+  #comentarios h2 {
+    font-size: 45px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #comentarios p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .comentarios-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo dos Comentários */
+  .comentario {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comentario-foto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .comentario h3 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .avaliacao {
+    font-size: 22px;
+    color: gold;
+    margin-bottom: 10px;
+  }
+  
+  .comentario p {
+    font-size: 16px;
+    color: #555;
+  }
+  
 /* Footer */
 
 footer {
