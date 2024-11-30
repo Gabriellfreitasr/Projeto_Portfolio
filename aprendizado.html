@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Contato - Gabriel </title>
+  <link rel="icon" type="image/x-icon" href="assets/icons.png">
+  <link rel="stylesheet" href="css/aprendizado.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="navbar__content max-width mb-0">
+            <a href="/"> 
+                <img src="assets/logo_.png" alt="logo" width="35%">
+            </a>
+
+            <ul class="navbar__links">
+              <li><a href="index.html"> Início </a></li>
+              <li><a href="index.html"> Sobre </a></li>
+              <li><a href="index.html"> Habilidades </a></li>
+              <li><a href="index.html"> Projetos </a></li>
+              <li><a href="galeria.html"> Galeria </a></li>
+              <li><a href="contato.html"> Contato </a></li>
+          </ul>
+
+        </div>
+    </nav>
+  </header>
+
+  <section id="aprendizado">
+    <h2> Meu Aprendizado </h2>
+    <p> Explore o que estou aprendendo, minhas dicas e trechos de código que podem ajudá-lo! </p>
+
+     <div class="cards">
+          <div class="card">
+            <h3>HTML & CSS</h3>
+            <p>Criação de layouts modernos, responsivos e acessíveis.</p>
+          </div>
+          <div class="card">
+            <h3>JavaScript</h3>
+            <p>Melhorando habilidades com manipulação de DOM e APIs.</p>
+          </div>
+          <div class="card">
+            <h3>React</h3>
+            <p>Aprendendo componentes reutilizáveis e otimização de estados.</p>
+          </div>
+          <div class="card">
+            <h3>Git & GitHub</h3>
+            <p>Gestão de versionamento eficiente para projetos em equipe.</p>
+          </div>
+        </div>
+  
+    <!-- Subseção: Dicas -->
+    <div class="dicas">
+      <h3>Dicas para Desenvolvedores</h3>
+      <div class="dica-card">
+        <h4>🎨 CSS Responsivo</h4>
+        <p>
+          Use unidades relativas como <code>em</code>, <code>rem</code> e porcentagens para criar designs que se adaptam a diferentes tamanhos de tela.
+        </p>
+      </div>
+      <div class="dica-card">
+        <h4>⚡ JavaScript Modular</h4>
+        <p>
+          Separe seu código em arquivos menores para facilitar a manutenção. Por exemplo, organize funções em módulos específicos.
+        </p>
+      </div>
+    </div>
+  
+    <!-- Subseção: Trechos de Código -->
+    <div class="trechos-codigo">
+      <h3>Trechos de Código Úteis</h3>
+      <div class="codigo-card">
+        <h4>Exemplo: Flexbox Center</h4>
+        <pre>
+  <code>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  </code>
+        </pre>
+      </div>
+      <div class="codigo-card">
+        <h4>Exemplo: Promises em JavaScript</h4>
+        <pre>
+  <code>
+  const fetchData = async () => {
+    try {
+      const response = await fetch('https://api.example.com/data');
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error('Erro:', error);
+    }
+  };
+  fetchData();
+  </code>
+        </pre>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Comentarios -->
+
+<section id="comentarios">
+    <h2>O que nossos leitores dizem</h2>
+    <p>Confira os comentários e compartilhe suas ideias conosco!</p>
+  
+    <div class="comentarios-container">
+      <div class="comentario">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGruKKYcna12w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710957272109?e=2147483647&v=beta&t=_6Qk-sEe6Nwq-6-2E6Vo-sID_hMCSm9Rdx3ykmWO_mQ">
+        <div class="comentario-texto">
+          <h3> Bruna Costa </h3>
+          <p>"Adorei as dicas sobre CSS. Consegui resolver um problema que estava me travando há dias!"</p>
+        </div>
+      </div>
+  
+      <div class="comentario">
+        <img src="https://preview.redd.it/essa-foto-ia-que-t%C3%B4-usando-de-perfil-no-wpp-ficou-muito-v0-1m4zmh31i8yc1.jpg?width=640&crop=smart&auto=webp&s=0ce1d8703a832689c8b6fb29dd3b9be91aac4256" class="comentario-foto" alt="Foto do leitor">
+        <div class="comentario-texto">
+          <h3> Marcelo Fernandes </h3>
+          <p>"As explicações sobre flexbox foram super claras e práticas. Muito obrigada!"</p>
+        </div>
+      </div>
+  
+      <div class="comentario">
+        <img src="https://i.pinimg.com/1200x/20/26/7f/20267f51abc3dfb782aa3be152d77d4a.jpg" alt="Foto do leitor">
+        <div class="comentario-texto">
+          <h3>Lucas Pereira</h3>
+          <p>"O conteúdo sobre JavaScript me ajudou a melhorar muito meu portfólio."</p>
+        </div>
+      </div>
+
+      <div class="comentario">
+        <img src="https://img.freepik.com/fotos-gratis/jovem-bonito-posando-sobre-parede-cinza_176420-42.jpg?semt=ais_hybrid" alt="Foto do leitor">
+        <div class="comentario-texto">
+          <h3>Lucas Pereira</h3>
+          <p>"O conteúdo sobre JavaScript me ajudou a melhorar muito meu portfólio."</p>
+        </div>
+      </div>
+    </div>
+  
+    <form id="comentarios-form">
+      <h2>Envie seu comentário</h2>
+      <p>Queremos ouvir suas sugestões e opiniões.</p>
+  
+      <div class="campo">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+      </div>
+  
+      <div class="campo">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Seu email" required>
+      </div>
+  
+      <div class="campo">
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="3" placeholder="Deixe seu comentário..." required></textarea>
+      </div>
+  
+      <button type="submit">Enviar Comentário</button>
+    </form>
+  </section>
+
+<!-- footer -->
+
+<footer id="footer"> 
+
+    <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s"> Dúvidas ?  </h2>
+        <p class="mb-m"> 
+            Ficarei feliz em saber mais sobre seus projetos e como podemos trabalhar juntos para torná-los realidade.
+        </p>
+
+        <div class="footer__contact mb-m">
+            <span class="mb-m"> Gabriellfreitas456@gmail.com </span>
+            <span> (85) 98197-2069 </span>
+        </div>
+
+        <ul class="mb-l">
+            <li> <a href="https://www.linkedin.com/in/gabriellfreitasr/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin"> </a></li>
+            <li> <a href="https://github.com/Gabriellfreitasr" target="_blank"><img src="assets/github.svg" alt="Github"> </a></li>
+            <li> <a href="https://www.instagram.com/gabriellfreitasr/" target="_blank"><img src="assets/instagram.svg" alt="instagram"> </a></li>
+            <li> <a href="https://api.whatsapp.com/send?phone=5585981972069&text=Ol%C3%A1%20Gabriel,%20vim%20atraves%20do%20seu%20Portif%C3%B3lio." target="_blank"><img src="assets/whatsapp.svg" alt="Whatsapp"> </a></li>
+        </ul>
+        <p class="footer__copyright"> @ 2024 Gabriel Freitas. Todos os direitos reservados </p>
+    </div>
+</footer>
+
+</body>
+</html>

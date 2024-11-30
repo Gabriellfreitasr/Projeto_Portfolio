@@ -1,0 +1,266 @@
+@import './style.css';
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  /* Cards */
+  .cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+  }
+
+/* Estilo da Seção de Aprendizado */
+#aprendizado {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #aprendizado h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #aprendizado p {
+    font-size: 16px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo para Tecnologias */
+  .tecnologias ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tecnologias li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Estilo para Dicas */
+  .dicas {
+    margin-top: 30px;
+  }
+  
+  .dica-card {
+    background: #ffecb3;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .dica-card h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Estilo para Trechos de Código */
+  .trechos-codigo {
+    margin-top: 30px;
+  }
+  
+  .codigo-card {
+    background: #e8f5e9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .codigo-card h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  pre {
+    background: #424242;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: monospace;
+    font-size: 14px;
+    color: #e0e0e0;
+  }
+  
+
+/* Seção de Comentários */
+#comentarios {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  #comentarios h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #comentarios p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Container dos comentários */
+  .comentarios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .comentario {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    max-width: 350px;
+  }
+  
+  .comentario img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .comentario-texto h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .comentario-texto p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Formulário de Comentários */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  .campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .campo input,
+  .campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .campo input:focus,
+  .campo textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(76, 175, 80, 0.3);
+  }
+  
+  /* Estilo Geral */
+.comentarios {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .comentarios h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+
+  .comentario {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .comentario strong {
+    color: #555;
+  }
+  
+  .comentario:last-child {
+    border-bottom: none;
+  }
+  
